@@ -1,0 +1,10 @@
+[
+  {
+    "xAxis": "Año",
+    "yAxis": "Superficie (Mm)",
+    "series": "Tipo de vegetación",
+    "seriesNoms": ["Original", "1993", "2018"],
+    "seriesNoms2": ["Vegetación arbolada", "Vegetación no arbolada"],
+    "colores": ["#E41A1C", "#377EB8"]
+  }
+]

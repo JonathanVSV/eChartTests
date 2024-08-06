@@ -1,0 +1,32 @@
+{"Primaria" : [{
+ "Bosques mesófilos de montaña" : [10.014,8.15], 
+"Bosques templados de coníferas y latifoliados" : [240.603,198.688], 
+"Matorrales xerófilos" : [503.93,476.539], 
+"Otros tipos de vegetación" : [0.119,0.191], 
+"Pastizales" : [2.927,1.273], 
+"Selvas caducifolias" : [79.223,69.349], 
+"Selvas perennifolias" : [40.489,44.795], 
+"Vegetación hidrófila" : [11.487,10.643], 
+"labels" : ["1993","2018"], 
+"legends" : ["Bosques mesófilos de montaña","Bosques templados de coníferas y latifoliados","Matorrales xerófilos","Otros tipos de vegetación","Pastizales","Selvas caducifolias","Selvas perennifolias","Vegetación hidrófila"], 
+"colores" : [] 
+}],
+"Secundaria" : [{
+ "Bosques mesófilos de montaña" : [8.129,9.846], 
+"Bosques templados de coníferas y latifoliados" : [90.151,132.815], 
+"Matorrales xerófilos" : [52.965,57.987], 
+"Otros tipos de vegetación" : [0.008,0.042], 
+"Selvas caducifolias" : [140.476,131.512], 
+"Selvas perennifolias" : [69.493,56.551], 
+"Vegetación hidrófila" : [0.138,1.249], 
+"labels" : ["1993","2018"], 
+"legends" : ["Bosques mesófilos de montaña","Bosques templados de coníferas y latifoliados","Matorrales xerófilos","Otros tipos de vegetación","Selvas caducifolias","Selvas perennifolias","Vegetación hidrófila"], 
+"colores" : [] 
+}],
+"No aplica" : [{
+ "Otros tipos de vegetación" : [1.705,1.128], 
+"Usos del suelo" : [1.373,2.02], 
+"labels" : ["1993","2018"], 
+"legends" : ["Otros tipos de vegetación","Usos del suelo"], 
+"colores" : [] 
+}]}

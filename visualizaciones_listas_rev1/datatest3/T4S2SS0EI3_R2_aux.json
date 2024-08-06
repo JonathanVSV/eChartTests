@@ -1,0 +1,9 @@
+[
+  {
+    "xAxis": "Zonas metropolitanas",
+    "yAxis": "Número de habitantes (hab.)",
+    "series": "Censos",
+    "seriesNoms": ["1995", "2000", "2005", "2010", "2020"],
+    "colores": ["#FEEDDE", "#FDBE85", "#FD8D3C", "#E6550D", "#A63603"]
+  }
+]

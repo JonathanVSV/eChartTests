@@ -1,0 +1,12 @@
+[
+  {
+    "xAxis": "Consumo Nacional",
+    "yAxis": "Total toneladas y kL",
+    "zAxis": "Año",
+    "tooltip1": "PIB_percapita",
+    "tooltip2": "porcentaje_importacion",
+    "tooltip3": "porcentaje_exportacion",
+    "seriesNoms": ["Cera", "Miel"],
+    "colores": ["#E41A1C", "#377EB8"]
+  }
+]

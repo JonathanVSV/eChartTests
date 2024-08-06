@@ -1,0 +1,10 @@
+[
+  {
+    "xAxis": "Tipo de vegetación",
+    "yAxis": "Superficie (Mm)",
+    "zAxis": "Año",
+    "series": "Condición",
+    "seriesNoms": ["Primaria", "Secundaria"],
+    "colores": ["#E41A1C", "#377EB8"]
+  }
+]

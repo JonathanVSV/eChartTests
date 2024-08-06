@@ -1,0 +1,7 @@
+[
+  {
+    "seriesNoms": ["Protegida", "NoProtegida"],
+    "series": "Proporción de los territorios indígenas bajo protección",
+    "colores": ["#E41A1C", "#377EB8"]
+  }
+]

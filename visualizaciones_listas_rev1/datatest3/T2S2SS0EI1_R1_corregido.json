@@ -1,0 +1,15 @@
+{
+ "Original" : [{
+ "Vegetación arbolada" : [998.294],
+ "Vegetación no arbolada" : [933.414]
+}],
+ "1993" : [{
+  "Vegetación arbolada" : [380.041],
+  "Vegetación no arbolada" : [656.997]
+ }],
+ "2018" : [{
+  "Vegetación arbolada" : [329.807],
+  "Vegetación no arbolada" : [616.752]
+ }]
+}
+

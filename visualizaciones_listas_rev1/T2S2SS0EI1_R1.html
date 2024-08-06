@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T2S2SS0EI1_R1</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+
+<div id="chart1" style="height:90vh;"></div>
+
+  <script>
+    $(function() {
+      "use strict";
+
+      var chart1 = echarts.init(document.getElementById('chart1'));
+      chart1.showLoading();
+
+      $.when(
+              $.getJSON('datatest3/T2S2SS0EI1_R1_corregido.json'),
+              $.getJSON('datatest3/T2S2SS0EI1_R1_aux_corregido.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+       chart1.hideLoading();
+
+        var option = {
+          title: [{
+            // text: 'T2S2SS0EI1_R1 - '+ datosjson2[0][0].series,
+            text: datosjson2[0][0].series,
+            // subtext: datosjson2[0][0].seriesNoms[0],
+            // top:'10%',
+           // left: '20%',
+           left: 'center',
+          },
+            {
+              // subtext: datosjson2[0][0].seriesNoms[1],
+              left: '50%',
+              top:'7%',
+            },
+            {
+              // subtext: datosjson2[0][0].seriesNoms[2],
+              left: '75%',
+              top:'7%',
+            }
+          ],
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              type: 'shadow'
+            }
+          },
+          legend: [{
+            top:'5%',
+            // data: datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0]['legends']
+            // data: datosjson1[0]['1993'][0]['legends']
+          },
+            {
+              top:'5%',
+              // data: datosjson1[0]['2018'][0]['legends']
+            },
+            {
+              top:'5%',
+              // data: datosjson1[0]['2018'][0]['legends']
+            }
+          ],
+          color: datosjson2[0][0].colores,
+          xAxis: [
+            { type: 'category',
+              gridIndex: 0,
+              name: datosjson2[0][0].xAxis,
+
+              // data: datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0]['labels']
+              data:  [datosjson2[0][0].seriesNoms[0]]
+            },
+            { type: 'category',
+              gridIndex: 1,
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+              data:  [datosjson2[0][0].seriesNoms[1]]
+            },
+            { type: 'category',
+              gridIndex: 2,
+              name: datosjson2[0][0].xAxis,
+              data:  [datosjson2[0][0].seriesNoms[2]]
+            }
+          ],
+          // yAxis:
+          //   {  gridIndex: 0,             name: datosjson2[0][0].yAxis,
+          //   },
+          yAxis: [
+                  { gridIndex: 0,
+                    name: datosjson2[0][0].yAxis,
+                    nameLocation: 'middle',
+                    nameGap: '80',
+                  },
+            { gridIndex: 1,
+              // name: datosjson2[0][0].yAxis,
+            },
+            { gridIndex: 2,
+              // name: datosjson2[0][0].yAxis,
+            }
+            ],
+          // grid: [{ bottom: '55%' }, { top: '55%' }],
+          grid: [{ right: '66%', top: '15%' }, {left: '37%', right:'38%', top: '15%'  }, {left: '66%', top: '15%'  }],
+
+          series: [
+            {
+              type: 'bar',
+
+              name: datosjson2[0][0].seriesNoms2[0],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0][ datosjson2[0][0].seriesNoms2[0] ]
+            },
+            {
+              type: 'bar',
+              name: datosjson2[0][0].seriesNoms2[1],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0][ datosjson2[0][0].seriesNoms2[1] ]
+            },
+            {
+              type: 'bar',
+              xAxisIndex: 1,
+              yAxisIndex: 1,
+              name: datosjson2[0][0].seriesNoms2[0],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[1] ][0][ datosjson2[0][0].seriesNoms2[0] ]
+            },
+            {
+              type: 'bar',
+              xAxisIndex: 1,
+              yAxisIndex: 1,
+              name: datosjson2[0][0].seriesNoms2[1],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[1] ][0][ datosjson2[0][0].seriesNoms2[1] ]
+            },
+            {
+              type: 'bar',
+              xAxisIndex: 2,
+              yAxisIndex: 2,
+              name: datosjson2[0][0].seriesNoms2[0],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[2] ][0][ datosjson2[0][0].seriesNoms2[0] ]
+            },
+            {
+              type: 'bar',
+              xAxisIndex: 2,
+              yAxisIndex: 2,
+              name: datosjson2[0][0].seriesNoms2[1],
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[2] ][0][ datosjson2[0][0].seriesNoms2[1] ]
+            }
+          ]
+        };
+        chart1.setOption(option);
+      });
+
+
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            chart1.resize();
+
+
+          }, 200);
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>

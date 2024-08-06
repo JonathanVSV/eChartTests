@@ -1,0 +1,60 @@
+[{ 
+        category: "Sí", 
+        value: 151, 
+        subData:[
+        {category: "Alimento", value: 95},
+{category: "Ornato", value: 5},
+{category: "Forraje", value: 12},
+{category: "Semilla", value: 22},
+{category: "Otros", value: 6},
+{category: "Especias y medicinales", value: 11}
+        ]
+      },
+{ 
+        category: "Semillas", 
+        value: 50, 
+        subData:[
+        {category: "Alimento", value: 8},
+{category: "Ornato", value: 29},
+{category: "Forraje", value: 5},
+{category: "Semilla", value: 1},
+{category: "Otros", value: 3},
+{category: "Especias y medicinales", value: 4}
+        ]
+      },
+{ 
+        category: "No", 
+        value: 72, 
+        subData:[
+        {category: "Alimento", value: 27},
+{category: "Ornato", value: 5},
+{category: "Forraje", value: 27},
+{category: "Semilla", value: 8},
+{category: "Otros", value: 4},
+{category: "Especias y medicinales", value: 1}
+        ]
+      },
+{ 
+        category: "Reproducción", 
+        value: 42, 
+        subData:[
+        {category: "Alimento", value: 24},
+{category: "Ornato", value: 3},
+{category: "Forraje", value: 1},
+{category: "Semilla", value: 5},
+{category: "Otros", value: 6},
+{category: "Especias y medicinales", value: 3}
+        ]
+      },
+{ 
+        category: "Desconocido", 
+        value: 70, 
+        subData:[
+        {category: "Alimento", value: 19},
+{category: "Ornato", value: 22},
+{category: "Forraje", value: 7},
+{category: "Semilla", value: 3},
+{category: "Otros", value: 12},
+{category: "Especias y medicinales", value: 7}
+        ]
+      }]

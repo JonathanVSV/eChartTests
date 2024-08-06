@@ -1,0 +1,7 @@
+{
+ "Vegetación arbolada" : [998.294,380.041,329.807], 
+"Vegetación no arbolada" : [933.414,656.997,616.752], 
+"labels" : ["Original","1993","2018"], 
+"legends" : ["Vegetación arbolada","Vegetación no arbolada"], 
+"colores" : [] 
+}

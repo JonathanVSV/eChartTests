@@ -1,0 +1,26 @@
+[
+  {
+    "datos": "Número de defunciones",
+    "series": "Fenómenos meteorológicos",
+    "seriesNoms": ["Altas temperaturas", "Bajas temperaturas", "Ciclones", "Derrumbes", "Deslaves", "Fuertes vientos", "Heladas", "Incendios forestales", "Inundaciones", "Lluvias", "Sequías", "Tormentas severas"],
+    "colores": ["#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999", null, null, null]
+  },
+  {
+    "datos": "Millones de pesos constantes",
+    "series": "Fenómenos meteorológicos",
+    "seriesNoms": ["Altas temperaturas", "Bajas temperaturas", "Ciclones", "Derrumbes", "Deslaves", "Fuertes vientos", "Heladas", "Incendios forestales", "Inundaciones", "Lluvias", "Sequías", "Tormentas severas"],
+    "colores": ["#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999", null, null, null]
+  },
+  {
+    "datos": "Población afectada",
+    "series": "Fenómenos meteorológicos",
+    "seriesNoms": ["Altas temperaturas", "Bajas temperaturas", "Ciclones", "Derrumbes", "Deslaves", "Fuertes vientos", "Heladas", "Incendios forestales", "Inundaciones", "Lluvias", "Sequías", "Tormentas severas"],
+    "colores": ["#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999", null, null, null]
+  },
+  {
+    "datos": "Área (¿?)",
+    "series": "Fenómenos meteorológicos",
+    "seriesNoms": ["Altas temperaturas", "Bajas temperaturas", "Ciclones", "Derrumbes", "Deslaves", "Fuertes vientos", "Heladas", "Incendios forestales", "Inundaciones", "Lluvias", "Sequías", "Tormentas severas"],
+    "colores": ["#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999", null, null, null]
+  }
+]

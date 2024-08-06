@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T3S1SS0EI4_R1</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+
+<div id="chart1" style="height:90vh;"></div>
+
+  <script>
+    $(function() {
+      "use strict";
+
+      var chart1 = echarts.init(document.getElementById('chart1'));
+      chart1.showLoading();
+
+      $.when(
+              $.getJSON('datatest3/T3S1SS0EI4_R1.json'),
+              $.getJSON('datatest3/T3S1SS0EI4_R1_aux_corregido.json')
+              // $.getJSON('datatest3/T3S1SS0EI4_R1_aux.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+        chart1.hideLoading();
+
+        var option = {
+          title: {
+            // text: 'T3S1SS0EI4_R1',
+            text: datosjson2[0][0].series,
+            left: 'center'
+          },
+          tooltip: {
+            trigger: 'item'
+          },
+          legend: {
+            top: 'bottom'
+          },
+          series: [
+            {
+              // name: 'Nombre Datos',
+              // name: datosjson2[0][0].series,
+              type: 'pie',
+              radius: '50%',
+              data: datosjson1[0].datos,
+              emphasis: {
+                itemStyle: {
+                  shadowBlur: 10,
+                  shadowOffsetX: 0,
+                  shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+              }
+            }
+          ]
+        };
+        chart1.setOption(option);
+      });
+
+
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            chart1.resize();
+
+
+          }, 200);
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>

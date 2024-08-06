@@ -1,0 +1,10 @@
+[
+  {
+    "xAxis": "Cultivo",
+    "yAxis": "Superficie sembrada (ha)",
+    "zAxis": "Año",
+    "series": "Uso principal",
+    "seriesNoms": ["Alimento", "Forraje", "Otros"],
+    "colores": ["#E41A1C", "#377EB8", "#4DAF4A"]
+  }
+]

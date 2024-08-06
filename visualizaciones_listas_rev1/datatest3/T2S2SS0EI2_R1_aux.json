@@ -1,0 +1,9 @@
+[
+  {
+    "xAxis": "Año",
+    "yAxis": "Superficie (Mm)",
+    "series": "Tipos de vegetación",
+    "seriesNoms": ["Bosques mesófilos de montaña", "Bosques templados de coníferas y latifoliados", "Matorrales xerófilos", "Otros tipos de vegetación", "Pastizales", "Selvas caducifolias", "Selvas perennifolias", "Usos del suelo", "Vegetación hidrófila"],
+    "colores": ["#70FFA5", "#0B4529", "#FFE785", "#F2A65A", "#EDC531", "#8367C7", "#3C0576", "#B4B8AB", "#2A9D8F"]
+  }
+]

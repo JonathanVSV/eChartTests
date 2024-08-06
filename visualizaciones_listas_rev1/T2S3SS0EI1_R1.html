@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T2S3SS0EI1_R1</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+<select name="serie" id="serie-selector">
+  <option value="Defunciones">Defunciones</option>
+  <option value="MDPconstantes">MDPconstantes</option>
+  <option value="Pobl">Pobl</option>
+  <option value="Area">Area</option>
+</select>
+
+</select>
+<div id="chart1" style="height:90vh;"></div>
+
+  <script>
+
+
+
+    function cargar_chart() {
+      nombreserie=$('#serie-selector').val();
+      var chart1 = echarts.init(document.getElementById('chart1'));
+      chart1.showLoading();
+
+      $.when(
+              $.getJSON('datatest3/T2S3SS0EI1_R1.json'),
+              $.getJSON('datatest3/T2S3SS0EI1_R1_aux.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+        // console.log(datosjson1);
+        // console.log(datosjson2);
+        // console.log(datosjson1[0].datos);
+        // console.log(datosjson1[0][nombreserie]);
+        // console.log(datosjson2[0][0]);
+
+        chart1.hideLoading();
+
+        const formatUtil = echarts.format;
+
+        var option = {
+          title: {
+            text: 'T2S3SS0EI1_R1',
+            left: 'center'
+          },
+          tooltip: {
+            formatter: function (info) {
+              var value = info.value;
+              var treePathInfo = info.treePathInfo;
+              var treePath = [];
+              for (var i = 1; i < treePathInfo.length; i++) {
+                treePath.push(treePathInfo[i].name);
+              }
+              return [
+                '<div class="tooltip-title">' +
+                formatUtil.encodeHTML(treePath.join('/')) +
+                '</div>',
+                // 'Disk Usage: ' + formatUtil.addCommas(value) + ' KB'
+                formatUtil.addCommas(value)+' defunciones'
+              ].join('');
+            }
+          },
+          series: [
+            {
+              type: 'treemap',
+              // data: datosjson1[0].datos
+              data: datosjson1[0][nombreserie]
+            }
+          ]
+        };
+        chart1.setOption(option);
+      });
+
+
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            chart1.resize();
+
+
+          }, 200);
+        }
+      });
+
+    }
+
+    $( document ).ready(function() {
+      cargar_chart();
+    });
+    $( "#serie-selector" ).change(function() {
+      cargar_chart();
+    });
+
+
+
+  </script>
+
+</body>
+</html>

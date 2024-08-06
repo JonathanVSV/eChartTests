@@ -1,0 +1,8 @@
+[
+  {
+    "xAxis": "Año",
+    "yAxis": "Total Volumen (l)",
+    "seriesNoms": ["Cera", "Miel"],
+    "colores": ["#E41A1C", "#377EB8"]
+  }
+]

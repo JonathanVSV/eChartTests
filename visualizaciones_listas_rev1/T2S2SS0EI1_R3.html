@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T2S2SS0EI1_R3</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+
+<div id="chart1" style="height:90vh;"></div>
+
+  <script>
+    $(function() {
+      "use strict";
+
+      var chart1 = echarts.init(document.getElementById('chart1'));
+      chart1.showLoading();
+
+      $.when(
+              $.getJSON('datatest3/T2S2SS0EI1_R3.json'),
+              // $.getJSON('datatest3/T2S2SS0EI1_R3_aux.json')
+              $.getJSON('datatest3/T2S2SS0EI1_R3_aux_corregido.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+
+        // console.log(datosjson1[0]['1993']);
+        // console.log(datosjson1[0]['1993'][0]['Primaria']);
+        // console.log(datosjson1[0]['1993'][0]['labels']);
+        // console.log(datosjson1[0]['1993'][0]['legends']);
+        // console.log(datosjson2);
+        // console.log(datosjson2[0][0].seriesNoms[0]);
+
+
+       chart1.hideLoading();
+
+        var option = {
+          title: [{
+            // text: 'T2S2SS0EI1_R3 - '+ datosjson2[0][0].series,
+            text: datosjson2[0][0].series,
+            subtext: datosjson2[0][0].seriesNoms[0],
+            subtextStyle:{
+              fontSize: 44,
+            },
+            itemGap: 100,
+            left: 'center'
+          },
+            {
+              top: '60%',
+            subtext: datosjson2[0][0].seriesNoms[1],
+              subtextStyle:{
+                fontSize: 44,
+              },
+            left: 'center'
+          }
+          ],
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              type: 'shadow'
+            }
+          },
+          legend: [{
+            top:'5%',
+            // data: datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0]['legends']
+            // data: datosjson1[0]['1993'][0]['legends']
+          },
+            {
+              top:'5%',
+              // data: datosjson1[0]['2018'][0]['legends']
+            }
+          ],
+          color: datosjson2[0][0].colores,
+          xAxis: [
+            { type: 'category',
+              gridIndex: 0,
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+              // data: datosjson1[0]['1993'][0]['labels']
+              data: datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0]['labels'],
+              axisLabel: {
+                width: 100,
+                overflow: 'break',
+                interval: 0,
+              },
+            },
+            { type: 'category',
+              gridIndex: 1,
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+              // data: datosjson1[0]['2018'][0]['labels']
+              data: datosjson1[0][ datosjson2[0][0].seriesNoms[1] ][0]['labels'],
+              axisLabel: {
+                width: 100,
+                overflow: 'break',
+                interval: 0,
+              },
+            }
+          ],
+          yAxis: [
+                  { gridIndex: 0,
+                    name: datosjson2[0][0].yAxis,
+                    nameLocation: 'middle',
+                    nameGap: '60',
+                  },
+            { gridIndex: 1,
+              name: datosjson2[0][0].yAxis,
+              nameLocation: 'middle',
+              nameGap: '60',
+            }
+            ],
+          grid: [
+                  { bottom: '55%' },
+                  { top: '55%' },
+            // { containLabel: true }
+            ],
+
+          series: [
+            {
+              type: 'bar',
+              stack: '1',
+              // name: 'Primaria',
+              name: datosjson2[0][0].seriesNoms2[0],
+              // data:datosjson1[0]['1993'][0]['Primaria']
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0][ datosjson2[0][0].seriesNoms2[0] ]
+            },
+            {
+              type: 'bar',
+              stack: '1',
+              // name: 'Secundaria',
+              name: datosjson2[0][0].seriesNoms2[1],
+              // data:datosjson1[0]['1993'][0]['Secundaria']
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[0] ][0][ datosjson2[0][0].seriesNoms2[1] ]
+            },
+            {
+              type: 'bar',
+              stack: '2',
+              xAxisIndex: 1,
+              yAxisIndex: 1,
+              // name: 'Primaria',
+              name: datosjson2[0][0].seriesNoms2[0],
+
+              // data:datosjson1[0]['2018'][0]['Primaria']
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[1] ][0][ datosjson2[0][0].seriesNoms2[0] ]
+            },
+            {
+              type: 'bar',
+              stack: '2',
+              xAxisIndex: 1,
+              yAxisIndex: 1,
+              // name: 'Secundaria',
+              name: datosjson2[0][0].seriesNoms2[1],
+
+              // data:datosjson1[0]['2018'][0]['Secundaria']
+              data:datosjson1[0][ datosjson2[0][0].seriesNoms[1] ][0][ datosjson2[0][0].seriesNoms2[1] ]
+            }
+          ]
+        };
+        chart1.setOption(option);
+      });
+
+
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            chart1.resize();
+
+
+          }, 200);
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>

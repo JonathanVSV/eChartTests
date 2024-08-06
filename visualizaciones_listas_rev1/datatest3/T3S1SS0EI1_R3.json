@@ -1,0 +1,623 @@
+{
+"California mediterránea":{
+"Islas del Pacífico Californiano con matorral xerófilo y chaparral":{
+"APFederal":{"area_km2": 591.38}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos y Planicies con matorral xerófilo y chaparral":{
+"APFederal":{"area_km2": 1531.39}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 92.38}
+}
+ , 
+"Sierras y Lomeríos con bosques de coníferas, encinos y mixtos":{
+"APFederal":{"area_km2": 8.68}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Sierras y Lomeríos con bosques de coníferas, encinos y mixtos (de Juarez)":{
+"APFederal":{"area_km2": 30.82}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 6.26}
+}
+ , 
+"Sierras y Lomeríos con bosques de coníferas, encinos y mixtos (de San Pedro Martir)":{
+"APFederal":{"area_km2": 478.97}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 8.27}
+}
+ 
+}
+ , 
+"Desiertos de América del Norte":{
+"Desierto Central Sonorense":{
+"APFederal":{"area_km2": 0.21}, 
+"APSubnacional":{"area_km2": 266.82}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Desiertos del Alto Golfo (Altar, El Pinacate, corredor Mexicali-San Felipe, cuencas de Asunción, Sonoyta, y San Ignacio-Aribaipa)":{
+"APFederal":{"area_km2": 9278.19}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 61.24}
+}
+ , 
+"Ecosistemas insulares xerófilos Bajacalifornianos del Mar de Cortés (Archipielago Xerófilo Bajacaliforniano)":{
+"APFederal":{"area_km2": 652.59}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Elevaciones aisladas y plegamientos del Altiplano Zacatecano-Potosino con vegetación xerófila, bosques de coníferas, de encino y mixtos":{
+"APFederal":{"area_km2": 219.85}, 
+"APSubnacional":{"area_km2": 325.89}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Elevaciones mayores del Desierto Chihuahuense con vegetación xerófila, bosques de coníferas, de encinos y mixtos":{
+"APFederal":{"area_km2": 6457.81}, 
+"APSubnacional":{"area_km2": 44.28}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales costeros del Pacífico Bajacaliforniano":{
+"APFederal":{"area_km2": 4687.87}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 14.18}
+}
+ , 
+"Humedales costeros del oriente del Mar de Cortés":{
+"APFederal":{"area_km2": 0.35}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales costeros del poniente del Mar de Cortés":{
+"APFederal":{"area_km2": 0.00}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales de las desembocaduras de los Ríos Mayo y Yaqui":{
+"APFederal":{"area_km2": 36.78}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales del delta del Río Colorado":{
+"APFederal":{"area_km2": 2537.86}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Islas del Desierto Sonorense con matorral xerófilo micrófilo-sarcocaule":{
+"APFederal":{"area_km2": 1191.60}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos y sierras bajas del Desierto Chihuahuense Norte con matorral xerófilo micrófilo-rosetófilo":{
+"APFederal":{"area_km2": 9324.48}, 
+"APSubnacional":{"area_km2": 272.46}, 
+"ADVC":{"area_km2": 21.42}
+}
+ , 
+"Lomeríos y sierras bajas del Desierto Chihuahuense Sur con matorral xerófilo micrófilo-rosetófilo":{
+"APFederal":{"area_km2": 1249.17}, 
+"APSubnacional":{"area_km2": 1514.59}, 
+"ADVC":{"area_km2": 12.62}
+}
+ , 
+"Planicie aluvial de la cuenca del Río Bravo - La Cochina con vegetación xerófila":{
+"APFederal":{"area_km2": 0.68}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicies aluviales de los Ríos Yaqui, Mayo y Fuerte con matorral y mezquital xerófilos":{
+"APFederal":{"area_km2": 8.05}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicies del Altiplano Zacatecano-Potosino con matorral xerófilo micrófilo-crasicaule":{
+"APFederal":{"area_km2": 2315.27}, 
+"APSubnacional":{"area_km2": 2098.41}, 
+"ADVC":{"area_km2": 391.45}
+}
+ , 
+"Planicies del centro del Desierto Chihuahuense con vegetación xerófila micrófilo-halófila":{
+"APFederal":{"area_km2": 8275.00}, 
+"APSubnacional":{"area_km2": 304.80}, 
+"ADVC":{"area_km2": 0.21}
+}
+ , 
+"Planicies y lomeríos costeros Bajacalifornianos del Mar de Cortés con matorral xerófilo sarco-sarcocrasicaule":{
+"APFederal":{"area_km2": 3975.72}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 35.22}
+}
+ , 
+"Planicies y lomeríos de los Desiertos del Vizcaíno y Magdalena con vegetación xerófila sarco-sarcocrasicaule y halófila":{
+"APFederal":{"area_km2": 16087.92}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 2.23}
+}
+ , 
+"Planicies y sierras del Desierto Central Bajacaliforniano con matorral xerófilo sarcocrasicaule y rosetófilo":{
+"APFederal":{"area_km2": 21780.33}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.12}
+}
+ , 
+"Sistema de sierras del corredor de la Giganta con vegetación xerófila y subtropical":{
+"APFederal":{"area_km2": 32.22}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 36.99}
+}
+ , 
+"Valles endorreicos de Cuatro Ciénegas con vegetación xerófila micrófilo-halófila-gipsófila":{
+"APFederal":{"area_km2": 1321.54}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ 
+}
+ , 
+"Elevaciones semiáridas meridionales":{
+"Lomeríos y Planicies con matorral xerófilo, pastizal y elevaciones aisladas con bosques de encinos y coníferas":{
+"APFederal":{"area_km2": 1765.34}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 540.03}
+}
+ , 
+"Lomeríos y Planicies del Altiplano con matorral xerófilo y pastizal":{
+"APFederal":{"area_km2": 308.01}, 
+"APSubnacional":{"area_km2": 4320.50}, 
+"ADVC":{"area_km2": 51.32}
+}
+ , 
+"Piedemontes y Planicies con pastizal, matorral xerófilo y bosques de encinos y coníferas":{
+"APFederal":{"area_km2": 5436.08}, 
+"APSubnacional":{"area_km2": 834.56}, 
+"ADVC":{"area_km2": 44.82}
+}
+ , 
+"Planicie interior con mezquital":{
+"APFederal":{"area_km2": 1.22}, 
+"APSubnacional":{"area_km2": 225.91}, 
+"ADVC":{"area_km2": 0.00}
+}
+ 
+}
+ , 
+"Grandes planicies":{
+"Humedales de la Laguna Madre":{
+"APFederal":{"area_km2": 2188.04}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos y Sierras con matorral xerófilo y bosques de encino":{
+"APFederal":{"area_km2": 2999.03}, 
+"APSubnacional":{"area_km2": 1435.15}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicie Costera Tamaulipeca con vegetación xerófila o sin vegetación aparente":{
+"APFederal":{"area_km2": 533.28}, 
+"APSubnacional":{"area_km2": 2.18}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicie Interior Tamaulipeca con matorral xerófilo":{
+"APFederal":{"area_km2": 1021.16}, 
+"APSubnacional":{"area_km2": 98.56}, 
+"ADVC":{"area_km2": 0.70}
+}
+ 
+}
+ , 
+"Selvas cálido-húmedas":{
+"Humedales de la costa de Vallarta":{
+"APFederal":{"area_km2": 0.36}, 
+"APSubnacional":{"area_km2": 1.55}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales de la planicie aluvial del Río Grande de Santiago":{
+"APFederal":{"area_km2": 1070.48}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 3.67}
+}
+ , 
+"Humedales del Caribe Mexicano":{
+"APFederal":{"area_km2": 4754.90}, 
+"APSubnacional":{"area_km2": 1380.67}, 
+"ADVC":{"area_km2": 5.90}
+}
+ , 
+"Humedales del Norte de Veracruz":{
+"APFederal":{"area_km2": 0.19}, 
+"APSubnacional":{"area_km2": 38.58}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales del Soconusco":{
+"APFederal":{"area_km2": 845.68}, 
+"APSubnacional":{"area_km2": 61.23}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales del Sur del Golfo de México":{
+"APFederal":{"area_km2": 6539.31}, 
+"APSubnacional":{"area_km2": 444.54}, 
+"ADVC":{"area_km2": 49.66}
+}
+ , 
+"Lomeríos del Norte de Veracruz con selva mediana superennifolia":{
+"APFederal":{"area_km2": 5.22}, 
+"APSubnacional":{"area_km2": 21.65}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos del Norte de Veracruz con selva mediana y alta perennifolia":{
+"APFederal":{"area_km2": 33.41}, 
+"APSubnacional":{"area_km2": 258.78}, 
+"ADVC":{"area_km2": 4.22}
+}
+ , 
+"Lomeríos del Sur de Yucatán con selva alta y mediana subperennifolia":{
+"APFederal":{"area_km2": 14060.66}, 
+"APSubnacional":{"area_km2": 289.30}, 
+"ADVC":{"area_km2": 1443.38}
+}
+ , 
+"Planicie Central Yucateca con selva mediana subcaducifolia":{
+"APFederal":{"area_km2": 532.24}, 
+"APSubnacional":{"area_km2": 2849.36}, 
+"ADVC":{"area_km2": 19.19}
+}
+ , 
+"Planicie Costera y Lomeríos con selva alta perennifolia":{
+"APFederal":{"area_km2": 1249.12}, 
+"APSubnacional":{"area_km2": 53.87}, 
+"ADVC":{"area_km2": 29.76}
+}
+ , 
+"Planicie con selva espinosa":{
+"APFederal":{"area_km2": 36.69}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicie con selva mediana y alta subperennifolia":{
+"APFederal":{"area_km2": 1145.99}, 
+"APSubnacional":{"area_km2": 295.60}, 
+"ADVC":{"area_km2": 50.28}
+}
+ , 
+"Planicie y Lomeríos con selva mediana subperennifolia del Occidente":{
+"APFederal":{"area_km2": 2039.70}, 
+"APSubnacional":{"area_km2": 102.35}, 
+"ADVC":{"area_km2": 0.41}
+}
+ , 
+"Selva alta perennifolia de la planicie Costera del Golfo":{
+"APFederal":{"area_km2": 511.45}, 
+"APSubnacional":{"area_km2": 149.28}, 
+"ADVC":{"area_km2": 10.23}
+}
+ , 
+"Selva alta perennifolia de la vertiente del Golfo de la Sierra Madre del Sur":{
+"APFederal":{"area_km2": 5343.08}, 
+"APSubnacional":{"area_km2": 436.54}, 
+"ADVC":{"area_km2": 2987.32}
+}
+ , 
+"Sierra de los Tuxtlas con Selva Alta Perennifolia":{
+"APFederal":{"area_km2": 1544.65}, 
+"APSubnacional":{"area_km2": 0.01}, 
+"ADVC":{"area_km2": 0.00}
+}
+ 
+}
+ , 
+"Selvas cálido-secas":{
+"Cañón y Lomeríos de Tehuantepec con selva baja caducifolia":{
+"APFederal":{"area_km2": 21.36}, 
+"APSubnacional":{"area_km2": 30.49}, 
+"ADVC":{"area_km2": 832.28}
+}
+ , 
+"Canones con selva baja caducifolia de la Sierra Madre Occidental":{
+"APFederal":{"area_km2": 3215.71}, 
+"APSubnacional":{"area_km2": 275.66}, 
+"ADVC":{"area_km2": 13.57}
+}
+ , 
+"Depresión de Chiapas con selva baja caducifolia y mediana subcaducifolia":{
+"APFederal":{"area_km2": 408.42}, 
+"APSubnacional":{"area_km2": 98.15}, 
+"ADVC":{"area_km2": 2.27}
+}
+ , 
+"Depresión de la Cañada con selva baja caducifolia y matorral xerófilo":{
+"APFederal":{"area_km2": 1592.34}, 
+"APSubnacional":{"area_km2": 0.20}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Depresión del Balsas con selva baja caducifolia y matorral xerófilo":{
+"APFederal":{"area_km2": 3888.21}, 
+"APSubnacional":{"area_km2": 1926.28}, 
+"ADVC":{"area_km2": 95.91}
+}
+ , 
+"Humedales de Sinaloa":{
+"APFederal":{"area_km2": 318.61}, 
+"APSubnacional":{"area_km2": 0.31}, 
+"ADVC":{"area_km2": 15.07}
+}
+ , 
+"Humedales del Norte de Yucatán":{
+"APFederal":{"area_km2": 1728.15}, 
+"APSubnacional":{"area_km2": 1038.14}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Humedales del Pacífico Sur Mexicano":{
+"APFederal":{"area_km2": 73.37}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 1.36}
+}
+ , 
+"Humedales del Pánuco":{
+"APFederal":{"area_km2": 0.00}, 
+"APSubnacional":{"area_km2": 12.89}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos con matorral xerófilo y selva baja caducifolia de Sinaloa y Sonora":{
+"APFederal":{"area_km2": 1716.33}, 
+"APSubnacional":{"area_km2": 381.04}, 
+"ADVC":{"area_km2": 5.66}
+}
+ , 
+"Lomeríos con selva mediana caducifolia del Sur de Oaxaca":{
+"APFederal":{"area_km2": 158.78}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 107.72}
+}
+ , 
+"Lomeríos de la planicie de Sinaloa con selva baja caducifolia":{
+"APFederal":{"area_km2": 46.42}, 
+"APSubnacional":{"area_km2": 167.05}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos y Planicies con selva baja caducifolia (de la Sierra de Cucharas)":{
+"APFederal":{"area_km2": 271.66}, 
+"APSubnacional":{"area_km2": 306.61}, 
+"ADVC":{"area_km2": 15.43}
+}
+ , 
+"Lomeríos y Planicies con selva baja caducifolia (del Sureste de Xalapa)":{
+"APFederal":{"area_km2": 0.00}, 
+"APSubnacional":{"area_km2": 0.01}, 
+"ADVC":{"area_km2": 0.49}
+}
+ , 
+"Planicie Costera Sinaloense con selva baja espinosa":{
+"APFederal":{"area_km2": 1.89}, 
+"APSubnacional":{"area_km2": 0.30}, 
+"ADVC":{"area_km2": 4.05}
+}
+ , 
+"Planicie Costera con selva baja espinosa":{
+"APFederal":{"area_km2": 586.58}, 
+"APSubnacional":{"area_km2": 153.87}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicie Costera del Istmo con selva baja espinosa":{
+"APFederal":{"area_km2": 0.00}, 
+"APSubnacional":{"area_km2": 0.38}, 
+"ADVC":{"area_km2": 5.77}
+}
+ , 
+"Planicie Costera y lomeríos del Pacífico Sur con selva baja caducifolia":{
+"APFederal":{"area_km2": 426.44}, 
+"APSubnacional":{"area_km2": 61.30}, 
+"ADVC":{"area_km2": 46.09}
+}
+ , 
+"Planicie Costera y lomeríos del pacifico Sur con selva baja caducifolia":{
+"APFederal":{"area_km2": 3.44}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicie Noroccidental con selva baja caducifolia":{
+"APFederal":{"area_km2": 272.57}, 
+"APSubnacional":{"area_km2": 1206.85}, 
+"ADVC":{"area_km2": 5.27}
+}
+ , 
+"Planicie y lomeríos con selva baja caducifolia y matorral xerófilo":{
+"APFederal":{"area_km2": 893.55}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.59}
+}
+ , 
+"Selva baja caducifolia de las islas del Pacífico Sur mexicano":{
+"APFederal":{"area_km2": 404.95}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Selva baja caducifolia y bosque de encino de la Sierra de Dientes de Moreno":{
+"APFederal":{"area_km2": 2668.74}, 
+"APSubnacional":{"area_km2": 131.22}, 
+"ADVC":{"area_km2": 1.42}
+}
+ , 
+"Sierra con bosques de encino y coníferas":{
+"APFederal":{"area_km2": 371.84}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Sierra de Maratines con selva mediana caducifolia":{
+"APFederal":{"area_km2": 45.24}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Valle de Tehuacán con matorral xerófilo":{
+"APFederal":{"area_km2": 1581.82}, 
+"APSubnacional":{"area_km2": 179.48}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Valles Centrales de Oaxaca con mezquital, selva baja caducifolia y bosque de encino":{
+"APFederal":{"area_km2": 10.77}, 
+"APSubnacional":{"area_km2": 6.41}, 
+"ADVC":{"area_km2": 6.74}
+}
+ 
+}
+ , 
+"Sierras templadas":{
+"Bosque mesófilo de montaña de las Sierras de Guerrero":{
+"APFederal":{"area_km2": 510.99}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 68.31}
+}
+ , 
+"Bosque mesófilo de montaña de las Sierras del Sur de Oaxaca":{
+"APFederal":{"area_km2": 0.00}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 14.36}
+}
+ , 
+"Bosque mesófilo de montaña de los Altos de Chiapas":{
+"APFederal":{"area_km2": 211.35}, 
+"APSubnacional":{"area_km2": 1.02}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Bosque mesófilo de montaña del norte de Oaxaca":{
+"APFederal":{"area_km2": 96.74}, 
+"APSubnacional":{"area_km2": 174.82}, 
+"ADVC":{"area_km2": 241.98}
+}
+ , 
+"Bosques de coníferas, encinos y mixtos de la Sierras Madre del Sur de Michoacán":{
+"APFederal":{"area_km2": 0.20}, 
+"APSubnacional":{"area_km2": 17.34}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Bosques de coníferas, encinos y mixtos de los Altos de Chiapas":{
+"APFederal":{"area_km2": 43.06}, 
+"APSubnacional":{"area_km2": 75.59}, 
+"ADVC":{"area_km2": 0.30}
+}
+ , 
+"Humedales Lacustres del Interior":{
+"APFederal":{"area_km2": 165.25}, 
+"APSubnacional":{"area_km2": 86.24}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Lomeríos y Sierras con bosques de coníferas, encinos y mixtos":{
+"APFederal":{"area_km2": 6665.33}, 
+"APSubnacional":{"area_km2": 5764.81}, 
+"ADVC":{"area_km2": 89.38}
+}
+ , 
+"Planicies Interiores y Piedemontes con pastizal, matorral xerófilo y selvas bajas de la porcion occidental del Sistema Neovolcánico Transversal":{
+"APFederal":{"area_km2": 485.60}, 
+"APSubnacional":{"area_km2": 34.35}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Planicies Interiores y Piedemontes con pastizal, matorral xerófilo y selvas bajasde la porcion oriental del Sistema Neovolcánico Transversal":{
+"APFederal":{"area_km2": 51.68}, 
+"APSubnacional":{"area_km2": 177.70}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Sierra Madre Centroamericana con bosque mesófilo de montaña":{
+"APFederal":{"area_km2": 1655.25}, 
+"APSubnacional":{"area_km2": 273.13}, 
+"ADVC":{"area_km2": 203.26}
+}
+ , 
+"Sierra Madre Centroamericana con bosques de coníferas, encinos y mixtos":{
+"APFederal":{"area_km2": 1483.53}, 
+"APSubnacional":{"area_km2": 471.87}, 
+"ADVC":{"area_km2": 1182.86}
+}
+ , 
+"Sierra con bosque mesófilo de montaña de la Sierra Madre Oriental":{
+"APFederal":{"area_km2": 94.94}, 
+"APSubnacional":{"area_km2": 161.84}, 
+"ADVC":{"area_km2": 0.20}
+}
+ , 
+"Sierra con bosque mesófilo de montaña del Sistema Neovolcánico Transversal":{
+"APFederal":{"area_km2": 284.89}, 
+"APSubnacional":{"area_km2": 303.11}, 
+"ADVC":{"area_km2": 33.75}
+}
+ , 
+"Sierra con bosques de coníferas, encinos y mixtos":{
+"APFederal":{"area_km2": 24744.00}, 
+"APSubnacional":{"area_km2": 818.26}, 
+"ADVC":{"area_km2": 346.25}
+}
+ , 
+"Sierra con bosques de encinos, coníferas y mixtos":{
+"APFederal":{"area_km2": 11045.58}, 
+"APSubnacional":{"area_km2": 2844.19}, 
+"ADVC":{"area_km2": 308.66}
+}
+ , 
+"Sierras con bosques de coníferas, encinos y mixtos de Guerrero y Oaxaca":{
+"APFederal":{"area_km2": 4530.80}, 
+"APSubnacional":{"area_km2": 262.35}, 
+"ADVC":{"area_km2": 1220.55}
+}
+ , 
+"Sierras con pradera de alta montaña y sin vegetación aparente":{
+"APFederal":{"area_km2": 256.15}, 
+"APSubnacional":{"area_km2": 2.18}, 
+"ADVC":{"area_km2": 0.00}
+}
+ , 
+"Sierras del Occidente de Jalisco con bosque mesófilo de montaña":{
+"APFederal":{"area_km2": 856.57}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 1.00}
+}
+ , 
+"Sierras del Occidente de Jalisco con bosques de coníferas, encinos y mixtos":{
+"APFederal":{"area_km2": 2022.99}, 
+"APSubnacional":{"area_km2": 1.49}, 
+"ADVC":{"area_km2": 1.62}
+}
+ , 
+"Valles y piedemonte con selvas bajas, mezquitales y bosques de encino":{
+"APFederal":{"area_km2": 11.81}, 
+"APSubnacional":{"area_km2": 0.00}, 
+"ADVC":{"area_km2": 0.00}
+}
+ 
+}
+ 
+}

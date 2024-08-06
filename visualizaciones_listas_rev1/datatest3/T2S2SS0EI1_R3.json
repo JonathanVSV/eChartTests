@@ -1,0 +1,14 @@
+{"1993" : [{
+ "Primaria" : [10.014,240.603,525.649,1.824,66.868,79.223,40.489,43.904,28.464,9.61], 
+"Secundaria" : [8.129,90.151,52.978,0.008,40.458,140.476,69.493,2.894,0.142,null], 
+"labels" : ["Bosques mesófilos de montaña","Bosques templados de coníferas y latifoliados","Matorrales xerófilos","Otros tipos de vegetación","Pastizales","Selvas caducifolias","Selvas perennifolias","Vegetación halófila","Vegetación hidrófila","Áreas desprovistas de vegetación"], 
+"legends" : ["Primaria","Secundaria"], 
+"colores" : [] 
+}],
+"2018" : [{
+ "Primaria" : [8.15,198.688,498.041,1.319,59.874,69.349,44.795,39.432,26.911,9.996], 
+"Secundaria" : [9.846,132.815,58.225,0.042,36.852,131.512,56.551,4.466,1.358,null], 
+"labels" : ["Bosques mesófilos de montaña","Bosques templados de coníferas y latifoliados","Matorrales xerófilos","Otros tipos de vegetación","Pastizales","Selvas caducifolias","Selvas perennifolias","Vegetación halófila","Vegetación hidrófila","Áreas desprovistas de vegetación"], 
+"legends" : ["Primaria","Secundaria"], 
+"colores" : [] 
+}]}

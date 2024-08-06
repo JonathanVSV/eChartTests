@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T2S3SS0EI1_R2</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+
+<div id="chart1" style="height:90vh;"></div>
+<hr>
+<div id="chart2" style="height:90vh;"></div>
+
+  <script>
+    $(function() {
+      "use strict";
+
+
+      var chart1 = echarts.init(document.getElementById('chart1'));
+      chart1.showLoading();
+      $.when(
+              $.getJSON('datatest3/T2S3SS0EI1_R2.json'),
+              $.getJSON('datatest3/T2S3SS0EI1_R2_aux.json')
+              // $.getJSON('datatest2/T2S3SS0EI1_R2_aux_corregido.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+        // console.log(datosjson1);
+        // console.log(datosjson2);
+        // console.log(datosjson1[0]['1995']);
+        console.log(datosjson2[0][0].seriesNom);
+        const seriesList = [];
+
+        for (let i = 0; i < datosjson2[0][0].seriesNoms.length; ++i) {
+          // console.log(datosjson2[0][0].seriesNom[i]);
+          console.log(datosjson1[0]);
+          const series = {
+            name: datosjson2[0][0].seriesNoms[i],
+            type: 'bar',
+            barGap: 0,
+            emphasis: {
+              focus: 'series'
+            },
+            data:datosjson1[0][ datosjson2[0][0].seriesNoms[i] ]
+          };
+          seriesList.push(series);
+        }
+
+        console.log(seriesList);
+        chart1.hideLoading();
+
+        var option = {
+          title: {
+            // text: 'T2S3SS0EI1_R2 - '+ datosjson2[0][0].series,
+            text:  datosjson2[0][0].series,
+            left: 'center'
+          },
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              type: 'shadow'
+            }
+          },
+          legend: {
+            top:'5%',
+            data: datosjson1[0].legends
+          },
+          color: datosjson2[0][0].colores,
+          grid: {
+            top:'10%',
+            containLabel: true
+          },
+          xAxis: [
+            {
+              type: 'category',
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+              axisTick: { show: false },
+              data: datosjson1[0].labels
+            }
+          ],
+          yAxis: [
+            {
+              type: 'value',
+              name: datosjson2[0][0].yAxis,
+              nameLocation: 'middle',
+              nameGap: '90',
+            }
+          ],
+          series: seriesList
+        };
+        chart1.setOption(option);
+      });
+
+
+      var chart2 = echarts.init(document.getElementById('chart2'));
+      chart2.showLoading();
+      $.when(
+              $.getJSON('datatest3/T2S3SS0EI1_R2.json'),
+              $.getJSON('datatest3/T2S3SS0EI1_R2_aux.json')
+              // $.getJSON('datatest2/T2S3SS0EI1_R2_aux_corregido.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+        // console.log(datosjson1);
+        // console.log(datosjson2);
+        // console.log(datosjson1[0]['1995']);
+        // console.log(datosjson2[0][0].seriesNom);
+        const seriesList = [];
+
+        for (let i = 0; i < datosjson2[0][0].seriesNoms.length; ++i) {
+          // console.log(datosjson2[0][0].seriesNom[i]);
+          const series = {
+            name: datosjson2[0][0].seriesNoms[i],
+            type: 'bar',
+            barGap: 0,
+            emphasis: {
+              focus: 'series'
+            },
+            data:datosjson1[0][ datosjson2[0][0].seriesNoms[i] ]
+          };
+          seriesList.push(series);
+        }
+
+        // console.log(seriesList);
+        chart2.hideLoading();
+
+        var option = {
+          title: {
+            // text: 'T2S3SS0EI1_R2 - '+ datosjson2[0][0].series,
+            text: datosjson2[0][0].series,
+            left: 'center'
+          },
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              type: 'shadow'
+            }
+          },
+          legend: {
+            top:'5%',
+            data: datosjson1[0].legends
+          },
+          color: datosjson2[0][0].colores,
+          grid: {
+            top:'10%',
+            containLabel: true
+          },
+          yAxis: [
+            {
+              type: 'category',
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '60',
+              axisTick: { show: false },
+              data: datosjson1[0].labels
+            }
+          ],
+          xAxis: [
+            {
+              type: 'value',
+              name: datosjson2[0][0].yAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+            }
+          ],
+          series: seriesList
+        };
+        chart2.setOption(option);
+      });
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            chart1.resize();
+
+
+          }, 200);
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>

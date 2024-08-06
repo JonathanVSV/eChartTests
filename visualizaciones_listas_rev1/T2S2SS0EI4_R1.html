@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T2S2SS0EI4_R1</title>
+</head>
+<body>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/echarts.5.4.3.min.js"></script>
+
+
+<div id="stackedcolumn100chart1" style="height:90vh;"></div>
+
+  <script>
+    $(function() {
+      "use strict";
+
+
+      var stackedcolumn100chart1 = echarts.init(document.getElementById('stackedcolumn100chart1'));
+      stackedcolumn100chart1.showLoading();
+      $.when(
+              $.getJSON('datatest3/T2S2SS0EI4_R1.json'),
+              $.getJSON('datatest3/T2S2SS0EI4_R1_aux.json')
+      ).done(function (datosjson1, datosjson2 ) {
+
+        // console.log(datosjson1);
+        // console.log(datosjson2);
+        // console.log(datosjson1[0]['1995']);
+        // console.log(datosjson2[0][0].seriesNom);
+        // console.log( datosjson1[0][ datosjson2[0][0].seriesNoms[0]].length);
+        // datosjson1[0][ datosjson2[0][0].seriesNoms[j]][0].forEach( num => { sum += num; });
+        // datosjson1[0][ datosjson2[0][0].seriesNoms[i]].forEach( num => { arreglo.push((num/sum)*100); });
+
+        var arreglo = [];
+        for (let i = 0; i < datosjson1[0][ datosjson2[0][0].seriesNoms[0]].length; ++i) {
+          var sum = 0;
+          for (let j = 0; j < datosjson2[0][0].seriesNoms.length; ++j) {
+            sum += datosjson1[0][ datosjson2[0][0].seriesNoms[j]][i];
+          }
+          arreglo[i]=sum;
+
+          for (let j = 0; j < datosjson2[0][0].seriesNoms.length; ++j) {
+            datosjson1[0][ datosjson2[0][0].seriesNoms[j]][i]= Math.round(datosjson1[0][ datosjson2[0][0].seriesNoms[j]][i]/arreglo[i]*1000)/10;
+          }
+          // console.log('suma: '+sum);
+        }
+
+
+        const seriesList = [];
+
+        for (let i = 0; i < datosjson2[0][0].seriesNoms.length; ++i) {
+
+          const series = {
+            name: datosjson2[0][0].seriesNoms[i],
+            type: 'bar',
+            barGap: 0,
+            stack: 'total',
+            emphasis: {
+              focus: 'series'
+            },
+            data:datosjson1[0][ datosjson2[0][0].seriesNoms[i] ]
+            // data:arreglo
+          };
+          seriesList.push(series);
+        }
+
+        // console.log(seriesList);
+        stackedcolumn100chart1.hideLoading();
+
+        var option = {
+          title: {
+            // text: 'T2S2SS0EI4_R1 - '+ datosjson2[0][0].series,
+            text:  datosjson2[0][0].series,
+            left: 'center'
+          },
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              type: 'shadow'
+            }
+          },
+          legend: {
+            top:'5%',
+            data: datosjson1[0].legends
+          },
+          color: datosjson2[0][0].colores,
+          grid: {
+            top:'10%',
+            containLabel: true
+          },
+          xAxis: [
+            {
+              type: 'category',
+              name: datosjson2[0][0].xAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+              axisTick: { show: false },
+              data: datosjson1[0].labels
+            }
+          ],
+          yAxis: [
+            {
+              type: 'value',
+              max: 100,
+              name: datosjson2[0][0].yAxis,
+              nameLocation: 'middle',
+              nameGap: '40',
+            }
+          ],
+          series: seriesList
+        };
+        stackedcolumn100chart1.setOption(option);
+      });
+
+      // *************************************************
+
+
+      $(function () {
+        $(window).on('resize', resize);
+        $(".sidebartoggler").on('click', resize);
+        function resize() {
+          setTimeout(function() {
+
+
+            stackedcolumn100chart1.resize();
+
+
+          }, 200);
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>

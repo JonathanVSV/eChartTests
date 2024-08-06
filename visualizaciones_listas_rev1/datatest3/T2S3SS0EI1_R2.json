@@ -1,0 +1,17 @@
+{
+ "Bajas temperaturas" : [70,836,60371,0,227.23,0,100,null], 
+"Lluvias" : [0,95,20112.96,199998,3829,28775,1524.16,0], 
+"Incendios forestales" : [0,null,0,3036,0,8,6,null], 
+"Derrumbes" : [null,null,null,3,0,null,3,null], 
+"Sequías" : [1235.4,491.02,52000,0,0,668940,8464,null], 
+"Deslaves" : [null,null,null,null,0,null,1.25,null], 
+"Tormentas severas" : [null,null,null,null,null,19,null,null], 
+"Ciclones" : [2386.01,113691,null,null,6794,609807,68204,null], 
+"Fuertes vientos" : [null,null,0,0.52,3,0,2076,null], 
+"Inundaciones" : [0,null,null,null,null,8.7,null,null], 
+"Altas temperaturas" : [null,null,null,null,null,null,0,null], 
+"Heladas" : [null,null,null,null,null,null,2118.6,null], 
+"labels" : ["2000","2001","2002","2003","2004","2005","2006","2007"], 
+"legends" : ["Bajas temperaturas","Lluvias","Incendios forestales","Derrumbes","Sequías","Deslaves","Tormentas severas","Ciclones","Fuertes vientos","Inundaciones","Altas temperaturas","Heladas"], 
+"colores" : [] 
+}
